@@ -6,6 +6,9 @@
 		"merge",
 		"object"
 	],
+	"homepage": "https://github.com/kripod/record-like-deep-assign#readme",
+	"bugs": "https://github.com/kripod/record-like-deep-assign/issues",
+	"repository": "kripod/record-like-deep-assign",
 	"license": "MIT",
 	"author": "Kristóf Poduszló <kripod@protonmail.com>",
 	"sideEffects": false,
