@@ -29,7 +29,7 @@
 		"commit": "git-cz",
 		"format": "prettier --ignore-path .gitignore --write .",
 		"release": "standard-version",
-		"test": "jest"
+		"test": "jest && bundlesize"
 	},
 	"husky": {
 		"hooks": {
@@ -58,6 +58,7 @@
 		"@commitlint/config-conventional": "^9.1.2",
 		"@types/jest": "^26.0.9",
 		"@wessberg/rollup-plugin-ts": "^1.3.2",
+		"bundlesize2": "0.0.25",
 		"commitizen": "^4.1.2",
 		"cz-conventional-changelog": "^3.2.0",
 		"husky": "^4.2.5",
@@ -69,5 +70,15 @@
 		"standard-version": "^8.0.2",
 		"ts-jest": "^26.1.4",
 		"typescript": "^3.9.7"
-	}
+	},
+	"bundlesize": [
+		{
+			"path": "./dist/esm/bundle.min.mjs",
+			"maxSize": "300B"
+		},
+		{
+			"path": "./dist/cjs/bundle.min.js",
+			"maxSize": "300B"
+		}
+	]
 }
