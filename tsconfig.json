@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ES5",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"declaration": true,
+		"declarationMap": true
+	}
+}

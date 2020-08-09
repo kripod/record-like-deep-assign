@@ -1,0 +1,37 @@
+{
+  "projectName": "record-like-deep-assign",
+  "projectOwner": "kripod",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "kripod",
+      "name": "Kristóf Poduszló",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/14854048?v=4",
+      "profile": "https://github.com/kripod",
+      "contributions": [
+        "maintenance",
+        "code",
+        "doc",
+        "test",
+        "ideas",
+        "infra"
+      ]
+    },
+    {
+      "login": "millsp",
+      "name": "Pierre-Antoine Mills",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18401805?v=4",
+      "profile": "https://gitter.im/millsp",
+      "contributions": [
+        "ideas"
+      ]
+    }
+  ],
+  "files": [
+    "README.md"
+  ]
+}
