@@ -1,6 +1,6 @@
 {
 	"name": "record-like-deep-assign",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Recursively assigns enumerable own properties of the given sources to a target object",
 	"keywords": [
 		"merge",
