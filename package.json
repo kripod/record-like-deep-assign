@@ -25,6 +25,7 @@
 		"clean": "git clean -fdx -e node_modules",
 		"commit": "git-cz",
 		"format": "prettier --ignore-path .gitignore --write .",
+		"release": "standard-version",
 		"test": "jest"
 	},
 	"husky": {
